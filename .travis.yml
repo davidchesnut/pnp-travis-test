@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  -lts/*
+  - 'lts/*'
 
 script:
   - cd Excel-custom-functions/Batching
