@@ -5,7 +5,7 @@
  * @param second Second number
  * @returns The sum of the two numbers.
  */
-function addNoBatch(first: number, second: number): number {
+functio addNoBatch(first: number, second: number): number {
   return first + second;
 }
 
