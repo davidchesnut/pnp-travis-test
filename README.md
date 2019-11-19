@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.com/davidchesnut/pnp-travis-test.svg?branch=master)]
-(https://travis-ci.com/davidchesnut/pnp-travis-test) 
+[![Build Status](https://travis-ci.com/davidchesnut/pnp-travis-test.svg?branch=master)](https://travis-ci.com/davidchesnut/pnp-travis-test) 
 
 # Office Add-ins Patterns and Practices (PnP)
 
