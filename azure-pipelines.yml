@@ -6,17 +6,15 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'macOS-latest'
-
-steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: '10.x'
-  displayName: 'Install Node.js'
-
 jobs:
 - job: Batchsample
+  pool:
+    vmImage: 'macOS-latest'
+  steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '10.x'
+    displayName: 'Install Node.js'
   steps:
   - script: |
       cd Excel-custom-functions/Batching
@@ -25,6 +23,13 @@ jobs:
     displayName: 'npm install and build'
 
 - job: Storagesample
+  pool:
+    vmImage: 'macOS-latest'
+  steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '10.x'
+    displayName: 'Install Node.js'
   steps:
   - script: |
       cd Excel-custom-functions/Batching
