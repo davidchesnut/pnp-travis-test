@@ -15,7 +15,6 @@ jobs:
     inputs:
       versionSpec: '10.x'
     displayName: 'Install Node.js'
-  steps:
   - script: |
       cd Excel-custom-functions/Batching
       npm install
