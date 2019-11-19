@@ -6,10 +6,11 @@
 trigger:
 - master
 
+pool:
+  vmImage: 'macOS-latest'
+  
 jobs:
 - job: Batchsample
-  pool:
-    vmImage: 'macOS-latest'
   steps:
   - task: NodeTool@0
     inputs:
@@ -22,8 +23,6 @@ jobs:
     displayName: 'npm install and build'
 
 - job: Storagesample
-  pool:
-    vmImage: 'macOS-latest'
   steps:
     - task: NodeTool@0
     inputs:
