@@ -15,8 +15,19 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-- script: |
-    cd Excel-custom-functions/Batching
-    npm install
-    npm run build
-  displayName: 'npm install and build'
+jobs:
+- job: Batchsample
+  steps:
+  - script: |
+      cd Excel-custom-functions/Batching
+      npm install
+      npm run build
+    displayName: 'npm install and build'
+
+- job: Storagesample
+  steps:
+  - script: |
+      cd Excel-custom-functions/Batching
+      npm install
+      npm run build
+    displayName: 'npm install and build'
