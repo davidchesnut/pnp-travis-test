@@ -6,7 +6,6 @@
 trigger:
 - master
 
-  
 jobs:
 - job: Batchsample
   displayName: Install
