@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/davidchesnut/pnp-travis-test.svg?branch=master)](https://travis-ci.com/davidchesnut/pnp-travis-test)[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+[![Build Status](https://travis-ci.com/davidchesnut/pnp-travis-test.svg?branch=master)](https://travis-ci.com/davidchesnut/pnp-travis-test) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
 # Office Add-ins Patterns and Practices (PnP)
 
